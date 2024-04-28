@@ -30,4 +30,4 @@ int main()
 
 ### Heading 3
 
-Description of heading 3 here
+Description of heading 3 here.
