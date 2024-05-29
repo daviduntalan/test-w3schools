@@ -1,0 +1,24 @@
+# ignore any (ALL) files with the .log extension
+*.log
+
+# ignore ALL files in ANY directory named tem
+temp/
+
+# Now all .log files and anythign in temp folders will be ignored by Git.
+
+# NOTE: 
+# In this case, we use a single .gitignore which applies to the entire repository.
+# It is also possible to have additional .gitignore files in sub-directories. 
+# This only apply to files or folders within that directory.
+
+.temp   
+# ignore all .temp file
+
+temp?.log 
+# ignore all files named temp1.log, temp2.log, and temp3.log
+
+*.log
+!main.log
+# ignore all .log files, except main.log
+
+
