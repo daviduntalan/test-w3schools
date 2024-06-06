@@ -32,4 +32,4 @@ int main()
 
 Description of heading 3 here.
 
-Adding plines to reddme
+Adding lines to readme
